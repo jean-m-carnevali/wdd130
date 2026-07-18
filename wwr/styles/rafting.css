@@ -1,7 +1,7 @@
 :root {
     --primary-color: #f5f2f2;
-    --secondary-color: #f3eeea;
-    --accent1-color: rgba(38, 101, 219, 0.88);
+    --secondary-color: #1a265a;
+    --accent1-color: #405bd3;
     --accent2-color: #fff;
     --heading-font: "Arial", sans-serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -69,7 +69,7 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.9;
-    background-color: var(--accent1-color);
+    background-color: var(--secondary-color);
     color: var(--accent2-color);
 }
 
