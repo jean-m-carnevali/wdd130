@@ -1,7 +1,7 @@
 :root {
     --primary-color: #f5f2f2;
-    --secondary-color: #1a265a;
-    --accent1-color: #405bd3;
+    --secondary-color: #0077ff;
+    --accent1-color: rgba(38, 101, 219, 0.88);
     --accent2-color: #fff;
     --heading-font: "Arial", sans-serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -41,7 +41,6 @@ section,
 article {
     margin: 15px;
     padding: 8px;
-    opacity: 0.8
 }
 
 .socialmedia a {
@@ -69,7 +68,7 @@ h1 {
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.9;
+    opacity: 0.8;
     background-color: var(--secondary-color);
     color: var(--accent2-color);
 }
