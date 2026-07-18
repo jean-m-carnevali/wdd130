@@ -41,6 +41,7 @@ section,
 article {
     margin: 15px;
     padding: 8px;
+    opacity: 0.8
 }
 
 .socialmedia a {
