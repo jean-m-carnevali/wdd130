@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #f5f2f2;
+    --primary-color: #fff;
     --secondary-color: #0077ff;
     --accent1-color: rgba(38, 101, 219, 0.88);
     --accent2-color: #fff;
@@ -18,12 +18,55 @@ body {
     color: var(--accent1-color);
 }
 
+header {
+    padding: 20px;
+    color: var(--accent2-color);
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    padding: 20px;
+    border: 1px solid var(--accent1-color);
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
 header,
 main,
 footer {
     width: 840px;
     margin: 0 auto;
     border-top: 2px solid #e4e4e4;
+}
+
+footer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer p {
+    width: 100%;
+    grid-column: 1 / span all;
+    text-align: center;
+
+}
+
+footer nav {
+    grid-column: end;
+    justify-self: right;
 }
 
 h1,
@@ -79,6 +122,24 @@ h1 {
     bottom: 2px;
 }
 
+.history {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
 article p {
     color: var(--accent2-color);
+}
+
+.adventure {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+}
+
+.adventure img {
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
 }
