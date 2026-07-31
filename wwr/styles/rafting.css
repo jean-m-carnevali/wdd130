@@ -86,6 +86,11 @@ article {
     padding: 8px;
 }
 
+input,
+textarea {
+    padding: .5rem;
+}
+
 .socialmedia a {
     text-decoration: none;
 }
@@ -105,7 +110,7 @@ article {
     width: 100px;
 }
 
-h1 {
+.title {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -114,6 +119,15 @@ h1 {
     opacity: 0.8;
     background-color: var(--secondary-color);
     color: var(--accent2-color);
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+label {
+    padding-right: .5rem;
 }
 
 .hero article {
@@ -140,6 +154,60 @@ article p {
 
 .adventure img {
     width: 150px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+    padding: 7px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 10px;
+}
+
+.map iframe {
+    width: 370px;
+    height: 370px;
+    border: 0;
+    border-radius: 30px;
+}
+
+.info {
+    text-align: center;
+    font-size: auto;
+    padding: 1rem;
+}
+
+.info p {
+    margin: -.7rem;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+.checkbox-item {
+    margin-left: 7px;
+}
+
+.employees {
+    background-color: gainsboro;
+}
+
+.employee {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+}
+
+.employee img {
+    width: 120px;
     height: auto;
     margin-top: 10px;
 }
