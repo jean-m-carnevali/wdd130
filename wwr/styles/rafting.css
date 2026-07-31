@@ -180,7 +180,6 @@ article p {
 
 .info {
     text-align: center;
-    font-size: auto;
     padding: 1rem;
 }
 
@@ -197,7 +196,7 @@ article p {
 }
 
 .employees {
-    background-color: gainsboro;
+    background-color: #DCDCDC;
 }
 
 .employee {
